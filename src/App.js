@@ -34,8 +34,8 @@ function App() {
             <Route exact path="/CT-Internship-Task" component={Home} />
             <Route path="/CT-Internship-Task/task1" component={Task1} />
             <Route path="/CT-Internship-Task/task2" component={Task2} />
-            <Route path="/CT-Internship-Task/documents" component={Documents} />
-            <Route path="/CT-Internship-Task/projects" component={Projects} />
+            {/* <Route path="/CT-Internship-Task/documents" component={Documents} />
+            <Route path="/CT-Internship-Task/projects" component={Projects} /> */}
           </Switch>
         </AnimatePresence>
       </Pages>
