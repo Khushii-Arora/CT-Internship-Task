@@ -31,9 +31,9 @@ function App() {
       <Pages>
         <AnimatePresence exitBeforeEnter>
           <Switch location={location} key={location.pathname}>
-            <Route exact path="/" component={Home} />
-            <Route path="/task1" component={Task1} />
-            <Route path="/task2" component={Task2} />
+            <Route exact path="/CT-Internship-Task" component={Home} />
+            <Route path="/CT-Internship-Task/task1" component={Task1} />
+            <Route path="/CT-Internship-Task/task2" component={Task2} />
             <Route path="/documents" component={Documents} />
             <Route path="/projects" component={Projects} />
           </Switch>
