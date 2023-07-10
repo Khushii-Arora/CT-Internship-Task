@@ -237,21 +237,21 @@ const Sidebar = () => {
             
             exact
             activeClassName="active"
-            to="/"
+            to="/CT-Internship-Task"
           >
             <img src={Home} alt="Home" />
             <Text clicked={click}>Home</Text>
           </Item>
           <Item
             activeClassName="active"
-            to="/task1"
+            to="/CT-Internship-Task/task1"
           >
             <img src={Team} alt="Task1" />
             <Text clicked={click}>Task1</Text>
           </Item>
           <Item
             activeClassName="active"
-            to="/task2"
+            to="/CT-Internship-Task/task2"
           >
             <img src={Calender} alt="Task2" />
             <Text clicked={click}>Task2</Text>
